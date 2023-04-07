@@ -6,6 +6,15 @@ const Works = () => {
     <section className="works">
       <div className="works-container">
         <Work 
+          img="https://res.cloudinary.com/fragmods/image/upload/v1680906064/censos_t7jvni.png"
+          title='Censos App'
+          type='Full Stack dev'
+          year='2022'
+          desc='App design to make a sense of all of business from Coacalco'
+          tech={['Rust', 'Rocket', 'React', 'Typescript', 'MySQL']}
+          url='https://censos-api.onrender.com/'
+        />
+        <Work 
           img="https://res.cloudinary.com/fragmods/image/upload/v1680652946/personal/elrincon_fvhsxx.png"
           title='El Rincon'
           type='Full Stack dev'
@@ -13,6 +22,7 @@ const Works = () => {
           desc='Administrative sistem for a restaurant'
           tech={['Next.js', 'MongoDB', 'Mongoose']}
           url='https://restaurante-web-eta.vercel.app/'
+          reverse={true}
         />
         <Work 
           img="https://res.cloudinary.com/fragmods/image/upload/v1680652950/personal/tuhogar_h5rrju.png"
@@ -22,7 +32,6 @@ const Works = () => {
           desc='A web page to help customers find the best price for their house'
           tech={['React', 'MongoDB', 'Node', 'Express']}
           url='https://www.tuhogaraunclic.com'
-          reverse={true}
         />
         <Work 
           img="https://res.cloudinary.com/fragmods/image/upload/v1680652948/personal/farmaciajesus_ulxhlj.png"
@@ -32,6 +41,7 @@ const Works = () => {
           desc='A web app for help customers to quote the price for their medicine'
           tech={['React', 'MongoDB', 'Python', 'Flask']}
           url='https://farmaciajesus.onrender.com/'
+          reverse={true}
         />
       </div>
     </section>
