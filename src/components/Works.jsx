@@ -10,7 +10,7 @@ const Works = () => {
           title='Censos App'
           type='Full Stack dev'
           year='2022'
-          desc='App design to make a sense of all of business from Coacalco'
+          desc='This is a Web app version took from Desktop app version to register all business from Coacalco City, Mexico you can access with the user Artufelii and password Suavicrema2709! to prove all the features that contains'
           tech={['Rust', 'Rocket', 'React', 'Typescript', 'MySQL']}
           url='https://censos-api.onrender.com/'
         />

@@ -2,6 +2,7 @@ import { useState } from "react"
 import SocialList from "./SocialList"
 import ListItem from "./ListItem"
 import javascript from '../assets/js.png'
+import typescript from '../assets/typescript.webp'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import python from '../assets/round8.webp'
@@ -12,6 +13,8 @@ import flask from '../assets/flask.webp'
 import mongo from '../assets/mongodb.webp'
 import sql from '../assets/pngegg.png'
 import api from '../assets/api.webp'
+import rust from '../assets/rust.webp'
+import rocket from '../assets/rocket.webp'
 import resume from '../assets/ArturoAlvarez-Resume.pdf'
 
 const About = () => {
@@ -21,7 +24,9 @@ const About = () => {
 
 	const languages = [
 		{img: javascript, title: 'JavaScript'},
+		{img: typescript, title: 'TypeScript'},
 		{img: python, title: 'Python'},
+		{img: rust, title: 'Rust'},
 		{img: html, title: 'HTML'},
 		{img: css, title: 'CSS'},
 	]
@@ -31,6 +36,7 @@ const About = () => {
 		{img: express, title: 'Express'},
 		{img: next, title: 'Next js'},
 		{img: flask, title: 'Flask'},
+		{img: rocket, title: 'Rocket'},
 	]
 
 	const skills = [
